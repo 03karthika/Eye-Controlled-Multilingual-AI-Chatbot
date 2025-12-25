@@ -1,0 +1,6 @@
+.app {
+  background: radial-gradient(circle at top, #011c3a, #000);
+  min-height: 100vh;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}

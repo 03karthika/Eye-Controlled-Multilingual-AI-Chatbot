@@ -1,0 +1,80 @@
+html, body, #root {
+  min-height: 100%;
+  margin: 0;
+  font-family: "Inter", "SF Pro Display", "Poppins", Arial, Helvetica, sans-serif;
+  color: #222;
+  background: #fafbfc;
+}
+
+.app-root {
+  background: #fafbfc;
+  min-height: 100vh;
+}
+
+.MuiPaper-root, .paper {
+  background: #fff !important;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  padding: 1.5rem;
+}
+
+nav, .MuiAppBar-root {
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-bottom: 1px solid #edf1f6;
+}
+
+.MuiButton-root, button, .nav-link {
+  background: #f5f6fa;
+  border: 1px solid #e4e9f2;
+  color: #1a3e72;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(25,160,253,0.05);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 26px;
+  transition: background 0.13s, box-shadow 0.13s;
+}
+.MuiButton-root:hover, .nav-link:hover {
+  background: #e6f2fa;
+  color: #0d2154;
+  box-shadow: 0 4px 18px rgba(25,160,253,0.15);
+  border-color: #c7e6fa;
+}
+
+.chat-messages {
+  background: #f6f8fb !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 22px rgba(0,0,0,0.07);
+  font-size: 1.08rem;
+  color: #222;
+  padding: 1rem 1.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e9eff6;
+  border-radius: 12px;
+}
+
+@media (max-width: 720px) {
+  .MuiContainer-root {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav-link, button, a {
+    padding: 11px 13px;
+    font-size: 1rem;
+  }
+}
+.clicked {
+  filter: brightness(1.085);
+  box-shadow: 0 0 14px #19a0fd66 !important;
+  transition: all 0.16s;
+}
+
+/* Heading and section styles for clarity */
+h1, h2, h3, h4, h5, h6, .MuiTypography-root {
+  color: #1a3e72;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
